@@ -107,11 +107,11 @@
 
           <div class="Staff_Member">
                <div class="Presentation_Right">
-                    <br>
-                         <br>
-                              <br>
-                                   <br>
-                                        <br>
+                       Bonjour/bonsoir/joyeuse pâques, moi c'est Cry0Ant,
+                       je m'appelle corentin j'ai 14 ans , sur mc je pratique le
+                       build et le terraforme depuis 1740 avant Giscard. Ah oui
+                       aussi d'après certains j'ai de l'humour, j'dirais plus que
+                       j'en ai pas mais bon...
                </div>
                <div class="Image_Right">
                     <img src="ressource/Staff/Cry0Ant.png" class="Image_RightFront">
