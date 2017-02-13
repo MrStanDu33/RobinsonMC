@@ -111,7 +111,8 @@
                        je m'appelle Corentin j'ai 14 ans , sur Minecraft je
                        pratique le build et le terraforme depuis 1740 avant
                        Giscard. Ah oui aussi d'après certains j'ai de l'humour,
-                       j'dirais plus que j'en ai pas mais bon ...
+                       j'dirais plus que j'en ai pas mais bon ... Accessoirement
+                       Architecte sur RobinsonMC.
                </div>
                <div class="Image_Right">
                     <img src="ressource/Staff/Cry0Ant.png" class="Image_RightFront">
