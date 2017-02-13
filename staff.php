@@ -80,8 +80,7 @@
                     prénomme Nathan, alias Benny360TheBigBag ;je suis des études
                     scientifiques en Physiques-Chimie, et je passe mon Bac S
                     en 2017. Je m’occupe principalement du social interpersonnel
-                    (je me limite à cette fonction car mes études me prennent
-                    beaucoup de temps). Si vous voulez en savoir plus, eh, beh
+                    . Si vous voulez en savoir plus, eh, beh
                     utilisez votre langue ou votre clavier, au choix .
                </div>
                <div class="Image_Right">
