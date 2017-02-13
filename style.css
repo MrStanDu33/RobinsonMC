@@ -1,0 +1,239 @@
+@font-face
+{
+     font-family: 'mc';
+     src: url('ressource/mc.ttf');
+}
+
+@font-face
+{
+     font-family: 'Russo_One';
+     src: url('ressource/Russo_One.ttf');
+}
+
+html
+{
+     background: url("ressource/background.png") no-repeat fixed center;
+     background-size: 100% 100%;
+     font-family: 'mc';
+}
+
+a
+{
+     text-decoration: none;
+     color: inherit;
+}
+
+body
+{
+     width:1046px;
+     margin: 0px auto;
+}
+
+#title
+{
+     color:#d12e2e;
+     font-size:60px;
+     text-shadow:1px 1px 12px #222222;
+     text-align: center;
+}
+
+#core
+{
+     font-size:20px;
+}
+
+#content
+{
+     padding: 10px;
+     background-color:rgba(33, 33, 33, 0.79);
+     color:#b3b3b3;
+     font-size:25px;
+}
+
+#contentstaff
+{
+     padding: 10px;
+     background-color:rgba(235, 0, 0, 0.47);
+     color:#b3b3b3;
+     font-size:25px;
+     margin-bottom: 15px
+}
+
+.gradient
+{
+     background: -webkit-gradient(
+          linear,
+          left top, left bottom,
+          from(#fa8080),
+          to(#980606)
+          );
+}
+
+.button
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:120px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:4px 4px 3px #810e05;
+}
+
+.button:hover
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+	background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+	background-color:#c62d1f;
+	text-decoration:none;
+     cursor:pointer;
+}
+
+.button:active
+{
+	position:relative;
+	text-decoration:none;
+	top:1px;
+}
+
+.Staff_Member
+{
+     font-family: 'Russo_One';
+     margin-left: 5px;
+     margin-bottom: : 5px;
+     margin-right: 5px;
+     font-size: 25px;
+     color: white;
+}
+
+.Presentation_Left
+{
+     background-color:rgba(33, 33, 33, 0.79);
+     width: 886px;
+     float: left;
+     margin-top: 10px;
+     margin-bottom: : 10px;
+}
+
+.Image_LeftFront
+{
+     width:144px;
+     float: right;
+     margin-top: 10px;
+     margin-bottom: : 10px;
+}
+
+.Image_LeftBack
+{
+     width:144px;
+     float: right;
+     margin-top: 10px;
+     margin-bottom: : 10px;
+}
+
+.Image_Left
+{
+     display: inline-block;
+     position: relative;
+     width:144px;
+     float: right;
+}
+
+.Image_Left img
+{
+     position: absolute;
+     transition-property: opacity;
+     transition-duration: 0.5s;
+     transition-timing-function: linear;
+}
+
+.Image_Left .Image_LeftFront, .Image_Left:hover .Image_LeftBack
+{
+     opacity: 1;
+}
+
+.Image_Left:hover .Image_LeftFront, .Image_Left .Image_LeftBack
+{
+     opacity: 0;
+}
+
+
+.Presentation_Right
+{
+     background-color:rgba(33, 33, 33, 0.79);
+     width: 886px;
+     float: right;
+     margin-top: 10px;
+     margin-bottom: : 10px;
+}
+
+.Image_RightFront
+{
+     width:144px;
+     float: left;
+     margin-top: 10px;
+     margin-bottom: : 10px;
+}
+
+.Image_RightBack
+{
+     width:144px;
+     float: left;
+     margin-top: 10px;
+     margin-bottom: : 10px;
+}
+
+.Image_Right
+{
+     display: inline-block;
+     position: relative;
+     width:144px;
+     float: left;
+}
+
+.Image_Right img
+{
+     position: absolute;
+     transition-property: opacity;
+     transition-duration: 0.5s;
+     transition-timing-function: linear;
+}
+
+.Image_Right .Image_RightFront, .Image_Right:hover .Image_RightBack
+{
+     opacity: 1;
+}
+
+.Image_Right:hover .Image_RightFront, .Image_Right .Image_RightBack
+{
+     opacity: 0;
+}
+
+.hub
+{
+     margin-top: 10px;
+}
