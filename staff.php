@@ -77,13 +77,12 @@
           <div class="Staff_Member">
                <div class="Presentation_Right">
                     Bonjoir, ou Bonjoin celons votre emplacement astral. Je me
-                    prénomme Nathan, alias Benny360TheBigBag ; je suis des études
-                    scientifiques orientés en Physiques-Chimie, et je passe mon Bac S
-                    cette année. Je m’occupe principalement du social interpersonnel
-                    (actuellement et pour quelques années, je me limite à cette
-                    fonction car mes études me prennent beaucoup de temps). Si
-                    vous voulez en savoir plus, eh, beh utilisez votre langue ou
-                    votre clavier, au choix .
+                    prénomme Nathan, alias Benny360TheBigBag ;je suis des études
+                    scientifiques en Physiques-Chimie, et je passe mon Bac S
+                    en 2017. Je m’occupe principalement du social interpersonnel
+                    (je me limite à cette fonction car mes études me prennent
+                    beaucoup de temps). Si vous voulez en savoir plus, eh, beh
+                    utilisez votre langue ou votre clavier, au choix .
                </div>
                <div class="Image_Right">
                     <img src="ressource/Staff/MSTeam_Benny360.png" class="Image_RightFront">
