@@ -27,10 +27,10 @@ plus vite que ça !
                       <a href="index.php"> Accueil </a>
                  </div>
                  <div class="button">
-                      <a href="/AZERT"> Histoire </a>
+                      <a href="history.php"> Histoire </a>
                  </div>
                  <div class="button">
-                      <a href="/reglement.php"> Chartes </a>
+                      <a href="reglement.php"> Chartes </a>
                  </div>
                  <div class="button">
                       <a href="/AZER"> Forum </a>
