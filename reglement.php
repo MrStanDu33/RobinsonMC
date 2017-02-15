@@ -25,10 +25,10 @@
                          n'est affilié de près ou de loin à Hystoria ou à son créateur.<br><br>
 
                          <span class="TAB">Le</span> Projet RobinsonMC est le regroupement d'un serveur Minecraft
-                         <span class="LINK">(play.robinsonmc.fr)</span> créé courant Septembre 2016 et officiellement
+                         (<span class="LINK">play.robinsonmc.fr</span>) créé courant Septembre 2016 et officiellement
                          publique à partir de Janvier 2017. RobinsonMC c'est
-                         également un serveur vocal TeamSpeak <span class="LINK">(ts.robinsonmc.fr)</span>
-                         d'une série de serveur Multi-jeux et d'un site web <span class="LINK">(www.robinsonmc.fr)</span>.<br><br>
+                         également un serveur vocal TeamSpeak (<span class="LINK">ts.robinsonmc.fr</span>)
+                         d'une série de serveur Multi-jeux et d'un site web (<span class="LINK">www.robinsonmc.fr</span>).<br><br>
 
                      <h4>B/ Le serveur Minecraft RobinsonMC</h4>
 
