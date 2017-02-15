@@ -23,28 +23,53 @@ plus vite que ça !
        <div id="core">
 
             <div class="menu">
-                 <div class="button">
-                      <a href="index.php"> Accueil </a>
-                 </div>
-                 <div class="button">
-                      <a href="history.php"> Histoire </a>
-                 </div>
-                 <div class="button">
-                      <a href="reglement.php"> Chartes </a>
-                 </div>
-                 <div class="button">
-                      <a href="/AZER"> Forum </a>
-                 </div>
-                 <div class="button">
-                      <a href="/AZERT"> Stats </a>
-                 </div>
-                 <div class="button">
-                      <a href="/AZERT"> Shop </a>
-                 </div>
-                 <div class="button">
-                      <a href="staff.php"> Staff </a>
-                 </div>
-                 <div class="button">
-                      <a href="http://play.robinsonmc.fr:8123/"> Dynmap </a>
-                 </div>
+
+                 <a href="index.php">
+                      <div class="button">
+                           Accueil
+                      </div>
+                 </a>
+
+                 <a href="history.php">
+                      <div class="button">
+                         Histoire
+                      </div>
+                 </a>
+
+                 <a href="reglement.php">
+                      <div class="button">
+                           Chartes
+                      </div>
+                 </a>
+
+                 <a href="/AZER">
+                      <div class="button">
+                           Forum
+                      </div>
+                 </a>
+
+                 <a href="/AZERT">
+                      <div class="button">
+                           Stats
+                      </div>
+                 </a>
+
+                 <a href="/AZERT">
+                      <div class="button">
+                           Shop
+                      </div>
+                 </a>
+
+                 <a href="staff.php">
+                      <div class="button">
+                           Staff
+                      </div>
+                 </a>
+
+                 <a href="http://play.robinsonmc.fr:8123/">
+                      <div class="button">
+                           Dynmap
+                      </div>
+                 </a>
+                 
             </div>

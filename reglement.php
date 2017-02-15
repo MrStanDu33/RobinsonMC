@@ -8,9 +8,9 @@
                      <span class="TAB">Bienvenue</span> à toi, cher visiteur, sur
                      cette page regroupant toutes les chartes du projet RobinsonMC.
                      Ces chartes peuvent être changées à tout moment sans préavis.
-                     Il est donc Vivement conseillé de relire ce règlement régulièrment
+                     Il est donc vivement conseillé de relire ce règlement régulièrement
                      afin d'être tenu au courant d'éventuels changements. Aucun
-                     membre du Staff ne pourra don, en aucun cas, prendre en compte
+                     membre du Staff ne pourra donc, en aucun cas, prendre en compte
                      cet oubli comme excuse acceptable si utilisée pour contre-argumenter
                      une sanction quelle qu'elle soit.<br><br><br>
 
@@ -21,7 +21,7 @@
                          <span class="TAB">Le</span> projet RobinsonMC est un projet venu tout droit de Mrstandu33,
                          diffuseur de contenu en live sur twitch.tv, voulant alors
                          rendre hommage à l'ancien serveur Hystoria qui, dans le
-                         passé fu baptisé "Robinson". En aucun cas le projet RobinsonMC
+                         passé fut baptisé "Robinson". En aucun cas le projet RobinsonMC
                          n'est affilié de près ou de loin à Hystoria ou à son créateur.<br><br>
 
                          <span class="TAB">Le</span> Projet RobinsonMC est le regroupement d'un serveur Minecraft
