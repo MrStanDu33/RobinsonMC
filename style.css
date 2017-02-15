@@ -41,6 +41,13 @@ h3
      font-size:40px;
 }
 
+h4
+{
+     color:#d12e2e;
+     text-shadow:1px 1px 12px #222222;
+     font-size:30px;
+}
+
 #title
 {
      color:#d12e2e;
@@ -262,4 +269,16 @@ h3
 .TAB
 {
      margin-left: 60px;
+}
+
+.UPDATE
+{
+     font-size: 10px;
+     text-align: right;
+     float: right;
+}
+
+.LINK
+{
+     color:#d12e2e;
 }
