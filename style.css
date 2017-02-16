@@ -29,6 +29,32 @@ body
      margin: 0px auto;
 }
 
+h3
+{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin: 0px auto;
+     text-align: center;
+     font-family: 'Russo_One';
+     color:#d12e2e;
+     text-shadow:1px 1px 12px #222222;
+     font-size:40px;
+}
+
+h4
+{
+     color:#d12e2e;
+     text-shadow:1px 1px 12px #222222;
+     font-size:30px;
+}
+
+h5
+{
+     color: #6264d0;
+     text-shadow:1px 1px 12px #222222;
+     font-size:25px;
+}
+
 #title
 {
      color:#d12e2e;
@@ -57,6 +83,15 @@ body
      color:#b3b3b3;
      font-size:25px;
      margin-bottom: 15px
+}
+
+#contentHistory
+{
+     padding: 10px;
+     background-color:rgba(33, 33, 33, 0.79);
+     font-family: 'Russo_One';
+     font-size: 25px;
+     color: #919191;
 }
 
 .gradient
@@ -135,24 +170,24 @@ body
      background-color:rgba(33, 33, 33, 0.79);
      width: 886px;
      float: left;
-     margin-top: 10px;
-     margin-bottom: : 10px;
+     margin-top: 12px;
+     margin-bottom: 12px;
 }
 
 .Image_LeftFront
 {
      width:144px;
      float: right;
-     margin-top: 10px;
-     margin-bottom: : 10px;
+     margin-top: 12px;
+     margin-bottom: 12px;
 }
 
 .Image_LeftBack
 {
      width:144px;
      float: right;
-     margin-top: 10px;
-     margin-bottom: : 10px;
+     margin-top: 12px;
+     margin-bottom: 12px;
 }
 
 .Image_Left
@@ -187,24 +222,24 @@ body
      background-color:rgba(33, 33, 33, 0.79);
      width: 886px;
      float: right;
-     margin-top: 10px;
-     margin-bottom: : 10px;
+     margin-top: 12px;
+     margin-bottom: 12px;
 }
 
 .Image_RightFront
 {
      width:144px;
      float: left;
-     margin-top: 10px;
-     margin-bottom: : 10px;
+     margin-top: 12px;
+     margin-bottom: 12px;
 }
 
 .Image_RightBack
 {
      width:144px;
      float: left;
-     margin-top: 10px;
-     margin-bottom: : 10px;
+     margin-top: 12px;
+     margin-bottom: 12px;
 }
 
 .Image_Right
@@ -236,4 +271,21 @@ body
 .hub
 {
      margin-top: 10px;
+}
+
+.TAB
+{
+     margin-left: 60px;
+}
+
+.UPDATE
+{
+     font-size: 10px;
+     text-align: right;
+     float: right;
+}
+
+.LINK
+{
+     color:#d12e2e;
 }
