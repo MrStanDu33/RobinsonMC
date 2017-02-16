@@ -110,7 +110,7 @@ body
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
 	background-color:#c62d1f;
 	text-decoration:none;
-     cursor:pointer;
+        cursor:pointer;
 }
 
 .button:active
