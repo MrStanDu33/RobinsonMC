@@ -149,11 +149,12 @@
 
           <div class="Staff_Member">
                <div class="Presentation_Left">
-                    <br>
-                         <br>
-                              <br>
-                                   <br>
-                                        <br>
+                       Bon ben salut, c'est stan qui m'envoie faire la présentation
+                       sinon je suis mort. Je m'appelle Nathanael  IRL et je suis
+                       votre zentil animateur, qui va passer son temps à vous trollez
+                       :3 L'humour noir c'est ma vie donc pour les blagues avec moi
+                       faudra s'accrocher. Ah oui, les fonda et et modos sont méchant
+                       avec moi.
                </div>
                <div class="Image_Left">
                     <img src="ressource/Staff/Nazdt.png" class="Image_LeftFront">
