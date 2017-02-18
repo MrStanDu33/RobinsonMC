@@ -50,7 +50,7 @@
                <div class="Presentation_Right">
                     Je suis ZePhiom, je suis le vent, j'existe, je suis présent,
                     vous me voyez mais ne m'atteindrez pas. Je crois en ce qu'a
-                    écrit Cicéron "Dum spiro spero". Toujours est-il que vous
+                    écrit Cicéron <br>"Dum spiro spero". Toujours est-il que vous
                     comprendrez si je vous dit que je suis calme, mais de nature
                     contrastée par une certaine agitation que je peux possèder.
                </div>
