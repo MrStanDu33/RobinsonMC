@@ -5,7 +5,7 @@
 ** Login   <mrstandu33@epitech.net>
 **
 ** Started on  Thu Feb 16 14:13:04 2017 daniel_s
-** Last update Thu Feb 16 19:27:49 2017 daniel_s
+** Last update Sat Feb 18 14:25:07 2017 daniel_s
 */
 
 #include <stdlib.h>
@@ -205,7 +205,7 @@ char	**positionning(char **str, char *file)
   return (str);
 }
 
-int	init_game(char *file)
+int	init_game(char *file, int server)
 {
   char	**my_str;
   char	**enemy;
@@ -216,5 +216,5 @@ int	init_game(char *file)
   my_str = positionning(my_str, file);
   printab(my_str);
   printab(enemy);
-  starter(my_str, enemy);
+  starter(my_str, enemy, server);
 }

@@ -5,80 +5,66 @@
 ** Login   <mrstandu33@epitech.net>
 **
 ** Started on  Thu Feb 16 19:41:18 2017 daniel_s
-** Last update Thu Feb 16 20:09:16 2017 daniel_s
+** Last update Sat Feb 18 15:04:21 2017 daniel_s
 */
 
-static char     *my_strncpy(char *dest, char *src, int n)
-{
-  int           i;
+#include <unistd.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <string.h>
 
-  i = 0;
-  while (src[i] != '\0' && i < n)
+extern int enemypid;
+
+int	waitforanswer()
+{
+  return (1);
+}
+
+char	**sendpos(char *pos)
+{
+  char lettre;
+  char chiffre;
+
+  lettre = 64;
+  chiffre = 48;
+
+  while ((lettre - 1) != pos[0])
     {
-      dest[i] = src[i];
-      i++;
+      kill(enemypid, SIGUSR1);
+      lettre = lettre + 1;
     }
-  if (n < i)
-    dest[i] = '\0';
-  return (dest);
-}
-
-static char     *add_to_line(char *line, int treat, char *buff, int *start)
-{
-  char          *newlen;
-  int           oldlen;
-
-  if (line != 0)
-    oldlen = my_strlen(line);
-  else
-    oldlen = 0;
-  newlen = malloc((oldlen + treat + 1) * sizeof(*newlen));
-  if (line != 0)
-    my_strncpy(newlen, line, oldlen);
-  else
-    my_strncpy(newlen, "", oldlen);
-  newlen[oldlen + treat] = 0;
-  my_strncpy(newlen + oldlen, buff + *start, treat);
-  if (line)
-    free(line);
-  *start = *start + (treat + 1);
-  return (newlen);
-}
-
-char            *get_next_line(const int fd)
-{
-  static char   buff[MEM_SIZE];
-  static int    nbinbuff = 0;
-  static int    start;
-  int           treat;
-  char          *line;
-
-  line = 0;
-  treat = 0;
-  while (1 == 1)
+  kill(enemypid, SIGUSR2);
+  while ((chiffre - 1) != pos[1])
     {
-      if (nbinbuff <= start)
+      kill(enemypid, SIGUSR1);
+      chiffre = chiffre + 1;
+    }
+  kill(enemypid, SIGUSR2);
+  waitforanswer();
+}
+
+int	starter(char **my_str, char **enemy, int tour)
+{
+  char	*buffer;
+
+  buffer = malloc(sizeof (char) * 3);
+  buffer[2] = '\0';
+  buffer[1] = '\0';
+  while (win(my_str, enemy) != 1)
+    {
+      if (tour == 1)
 	{
-	  start = 0;
-	  if (!(nbinbuff = read(fd, buff, MEM_SIZE)))
-	    return (line);
-	  if (nbinbuff == -1)
-	    return (NULL);
-	  treat = 0;
+	  my_putstr("attack: ");
+	  read(0, buffer, 2);
+	  my_putstr(buffer);
+          sendpos(buffer);
+	  my_putstr("waiting for enemy's attack...");
+	  my_putchar('\n');
+	  tour = 0;
 	}
-      if (buff[start + treat] == '\n')
-	return (line = add_to_line(line, treat, buff, &start));
-      if (start + treat == nbinbuff - 1)
-	line = add_to_line(line, treat + 1, buff, &start);
-      treat = treat + 1;
-    }
-}
-
-int	starter(char **my_str, char **enemy)
-{
-  while (1)
-    {
-      my_putstr("attack: ")
-
+      else if (tour == 0)
+	{
+	  tour = 1;
+	}
     }
 }

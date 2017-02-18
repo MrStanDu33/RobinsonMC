@@ -149,11 +149,11 @@
 
           <div class="Staff_Member">
                <div class="Presentation_Left">
-                       Bon ben salut, c'est stan qui m'envoie faire la présentation
+                       Bon ben salut, c'est Stan qui m'envoie faire la présentation
                        sinon je suis mort. Je m'appelle Nathanael  IRL et je suis
-                       votre zentil animateur, qui va passer son temps à vous trollez
+                       votre zentil animateur, qui passera son temps à vous troller
                        :3 L'humour noir c'est ma vie donc pour les blagues avec moi
-                       faudra s'accrocher. Ah oui, les fonda et et modos sont méchant
+                       faudra s'accrocher. Ah oui, les fondas et et modos sont méchant
                        avec moi.
                </div>
                <div class="Image_Left">

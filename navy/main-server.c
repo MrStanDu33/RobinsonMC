@@ -5,13 +5,15 @@
 ** Login   <mrstandu33@epitech.net>
 **
 ** Started on  Wed Feb 15 12:38:20 2017 daniel_s
-** Last update Thu Feb 16 15:22:31 2017 daniel_s
+** Last update Sat Feb 18 15:02:49 2017 daniel_s
 */
 
 #include <unistd.h>
 #include <sys/types.h>
 #include <signal.h>
 #include <string.h>
+
+int	enemypid;
 
 void	my_putchar(char c)
 {
@@ -68,6 +70,7 @@ void    my_put_nbr(int nb)
 
 static void hdl (int sig, siginfo_t *siginfo, void *context)
 {
+  enemypid = siginfo->si_pid;
   if (sig == 10)
     {
       my_putstr("enemy connected");
@@ -109,5 +112,5 @@ int	mainserv(int ac, char **av)
   my_putstr("waiting for enemy connection...\n");
   my_putchar('\n');
   testforsigusr();
-  init_game(av[1]);
+  init_game(av[1], 1);
 }

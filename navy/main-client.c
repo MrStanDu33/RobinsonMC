@@ -5,7 +5,7 @@
 ** Login   <mrstandu33@epitech.net>
 **
 ** Started on  Wed Feb 15 12:19:23 2017 daniel_s
-** Last update Thu Feb 16 15:22:44 2017 daniel_s
+** Last update Sat Feb 18 14:24:58 2017 daniel_s
 */
 
 #include <unistd.h>
@@ -91,5 +91,5 @@ int	mainclient(int ac, char **av)
   my_putchar('\n');
   kill(pidserv, SIGUSR1);
   testforsigusr();
-  init_game(av[2]);
+  init_game(av[2], 0);
 }
